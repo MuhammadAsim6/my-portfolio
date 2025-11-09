@@ -24,7 +24,7 @@ export default function Portfolio() {
       github: "https://github.com/MuhammadAsim6/Website-Automation-with-Selenium",
       gradient: "from-cyan-500 to-blue-500",
       icon: "🔍",
-      stats: { tests: "200+", coverage: "85%" }
+      stats: { tests: "10+", coverage: "85%" }
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ export default function Portfolio() {
       github: "https://github.com/MuhammadAsim6/ShopEase_Project",
       gradient: "from-purple-500 to-pink-500",
       icon: "🛒",
-      stats: { users: "1K+", rating: "4.8★" }
+      stats: { products: "40+", reviews: "Excellent" }
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ export default function Portfolio() {
       github: "https://github.com/MuhammadAsim6/Dijkstra-Visualizer-App",
       gradient: "from-orange-500 to-red-500",
       icon: "🗺️",
-      stats: { nodes: "100+", animations: "Smooth" }
+      stats: { nodes: "50+", animations: "Smooth" }
     },
     {
       id: 5,
@@ -193,7 +193,7 @@ export default function Portfolio() {
     {
       id: 1,
       name: "Software Quality Assurance Bootcamp",
-      issuer: "MAJU University",
+      issuer: "MAJU",
       date: "2025",
       icon: "🎓",
       color: "from-green-400 to-cyan-400"
@@ -372,7 +372,7 @@ export default function Portfolio() {
               { label: "Projects", value: "5+", icon: Rocket },
               { label: "Technologies", value: "12+", icon: Code },
               { label: "Certifications", value: "2", icon: Award },
-              { label: "GitHub Stars", value: "50+", icon: Star }
+              { label: "Code lines", value: "10k+", icon: Braces }
             ].map((stat, index) => (
               <div key={index} className="group bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-2xl p-6 hover:border-cyan-500/50 transition-all hover:scale-110 cursor-pointer">
                 <stat.icon className="text-cyan-400 mb-3 group-hover:scale-110 group-hover:rotate-12 transition-transform" size={32} />
