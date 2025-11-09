@@ -175,18 +175,18 @@ export default function Portfolio() {
   };
 
   const skills = [
-    { name: "Selenium", level: 90, icon: "🔍", category: "Automation", color: "from-cyan-500 to-blue-500" },
-    { name: "Playwright", level: 85, icon: "🎭", category: "Automation", color: "from-blue-500 to-purple-500" },
-    { name: "Java", level: 88, icon: "☕", category: "Programming", color: "from-orange-500 to-red-500" },
-    { name: "Kotlin", level: 85, icon: "🎯", category: "Programming", color: "from-purple-500 to-pink-500" },
-    { name: "Python", level: 80, icon: "🐍", category: "Programming", color: "from-green-500 to-teal-500" },
+    { name: "Selenium", level: 78, icon: "🔍", category: "Automation", color: "from-cyan-500 to-blue-500" },
+    { name: "Playwright", level: 76, icon: "🎭", category: "Automation", color: "from-blue-500 to-purple-500" },
+    { name: "Java", level: 75, icon: "☕", category: "Programming", color: "from-orange-500 to-red-500" },
+    { name: "Kotlin", level: 75, icon: "🎯", category: "Programming", color: "from-purple-500 to-pink-500" },
+    { name: "Python", level: 70, icon: "🐍", category: "Programming", color: "from-green-500 to-teal-500" },
     { name: "TestNG", level: 90, icon: "✅", category: "Testing", color: "from-teal-500 to-cyan-500" },
     { name: "JUnit", level: 88, icon: "🧪", category: "Testing", color: "from-cyan-500 to-blue-500" },
-    { name: "Android SDK", level: 87, icon: "📱", category: "Mobile", color: "from-green-500 to-emerald-500" },
-    { name: "Git", level: 92, icon: "🔀", category: "Tools", color: "from-orange-500 to-amber-500" },
-    { name: "CI/CD", level: 83, icon: "🔄", category: "DevOps", color: "from-blue-500 to-indigo-500" },
-    { name: "C#", level: 75, icon: "💎", category: "Programming", color: "from-purple-500 to-violet-500" },
-    { name: "C++", level: 78, icon: "⚡", category: "Programming", color: "from-yellow-500 to-orange-500" }
+    { name: "Android SDK", level: 80, icon: "📱", category: "Mobile", color: "from-green-500 to-emerald-500" },
+    { name: "Git", level: 78, icon: "🔀", category: "Tools", color: "from-orange-500 to-amber-500" },
+    { name: "CI/CD", level: 75, icon: "🔄", category: "DevOps", color: "from-blue-500 to-indigo-500" },
+    { name: "C#", level: 70, icon: "💎", category: "Programming", color: "from-purple-500 to-violet-500" },
+    { name: "C++", level: 70, icon: "⚡", category: "Programming", color: "from-yellow-500 to-orange-500" }
   ];
 
   const certifications = [
@@ -209,9 +209,9 @@ export default function Portfolio() {
   ];
 
   const testimonials = [
-    { text: "Outstanding automation skills!", author: "Tech Lead", rating: 5 },
-    { text: "Delivers quality code every time.", author: "Project Manager", rating: 5 },
-    { text: "Excellent problem-solving abilities.", author: "Senior Developer", rating: 5 }
+    { text: "Outstanding automation skills!", author: "Mentor", rating: 5 },
+    { text: "Delivers quality code every time.", author: "Project Member", rating: 5 },
+    { text: "Excellent problem-solving abilities.", author: "Team Member", rating: 5 }
   ];
 
   return (
