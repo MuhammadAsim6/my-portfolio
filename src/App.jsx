@@ -370,9 +370,9 @@ export default function Portfolio() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
             {[
               { label: "Projects", value: "5+", icon: Rocket },
-              { label: "Technologies", value: "12+", icon: Code },
+              { label: "Technologies", value: "12+", icon: Star },
               { label: "Certifications", value: "2", icon: Award },
-              { label: "Code lines", value: "10k+", icon: Braces }
+              { label: "Code lines", value: "10k+", icon: Code }
             ].map((stat, index) => (
               <div key={index} className="group bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-2xl p-6 hover:border-cyan-500/50 transition-all hover:scale-110 cursor-pointer">
                 <stat.icon className="text-cyan-400 mb-3 group-hover:scale-110 group-hover:rotate-12 transition-transform" size={32} />
