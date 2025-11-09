@@ -52,13 +52,17 @@ export default function Portfolio() {
   }, []);
 
   // Auto-rotate projects
+
   useEffect(() => {
-    if (!isPlaying) return;
-    const interval = setInterval(() => {
-      setActiveProject(prev => (prev + 1) % projects.length);
-    }, 4000);
-    return () => clearInterval(interval);
-  }, [isPlaying]);
+  if (!isPlaying) return;
+  const interval = setInterval(() => {
+    setActiveProject(prev => (prev + 1) % projects.length);
+  }, 4000);
+  return () => clearInterval(interval);
+  }, [isPlaying, projects.length]);
+
+  
+  
 
   // Matrix rain effect
   useEffect(() => {
