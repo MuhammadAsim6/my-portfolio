@@ -14,6 +14,61 @@ export default function Portfolio() {
   
   const fullText = "< Building Quality. Creating Innovation. />";
 
+  const projects = [
+    {
+      id: 1,
+      title: "Test Automation Framework",
+      subtitle: "Selenium WebDriver",
+      description: "Comprehensive test automation framework with Page Object Model and parallel execution capabilities for end-to-end testing.",
+      tech: ["Selenium", "Java", "TestNG"],
+      github: "https://github.com/MuhammadAsim6/Website-Automation-with-Selenium",
+      gradient: "from-cyan-500 to-blue-500",
+      icon: "🔍",
+      stats: { tests: "200+", coverage: "85%" }
+    },
+    {
+      id: 2,
+      title: "Playwright Automation Suite",
+      description: "Modern test automation with visual regression testing, comprehensive reporting with screenshots and failure analysis.",
+      tech: ["Playwright", "TypeScript", "CI/CD", "Allure"],
+      github: "https://github.com/MuhammadAsim6/Playwright_Website-Automation",
+      gradient: "from-green-500 to-teal-500",
+      icon: "🎭",
+      stats: { speed: "3x faster", reliability: "99%" }
+    },
+    {
+      id: 3,
+      title: "ShopEase",
+      subtitle: "E-Commerce Android App",
+      description: "Full-featured e-commerce mobile application with Azure database integration, shopping cart, and real-time customer support.",
+      tech: ["Java", "Android SDK", "Azure", "SQL"],
+      github: "https://github.com/MuhammadAsim6/ShopEase_Project",
+      gradient: "from-purple-500 to-pink-500",
+      icon: "🛒",
+      stats: { users: "1K+", rating: "4.8★" }
+    },
+    {
+      id: 4,
+      title: "Dijkstra Visualizer",
+      description: "Interactive visualization tool for Dijkstra's shortest path algorithm with step-by-step execution and graph manipulation.",
+      tech: ["Java", "Android SDK", "XML"],
+      github: "https://github.com/MuhammadAsim6/Dijkstra-Visualizer-App",
+      gradient: "from-orange-500 to-red-500",
+      icon: "🗺️",
+      stats: { nodes: "100+", animations: "Smooth" }
+    },
+    {
+      id: 5,
+      title: "Automata Simulator",
+      description: "Educational tool for creating and testing Finite Automata (DFA/NFA) with interactive visualization and step-by-step execution.",
+      tech: ["Java", "Android SDK", "XML"],
+      github: "https://github.com/MuhammadAsim6/Automata-Simulator",
+      gradient: "from-indigo-500 to-purple-500",
+      icon: "🤖",
+      stats: { states: "Unlimited", modes: "DFA/NFA" }
+    }
+  ];
+
   // Mouse position tracking
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -132,61 +187,6 @@ export default function Portfolio() {
     { name: "CI/CD", level: 83, icon: "🔄", category: "DevOps", color: "from-blue-500 to-indigo-500" },
     { name: "C#", level: 75, icon: "💎", category: "Programming", color: "from-purple-500 to-violet-500" },
     { name: "C++", level: 78, icon: "⚡", category: "Programming", color: "from-yellow-500 to-orange-500" }
-  ];
-
-  const projects = [
-    {
-      id: 1,
-      title: "Test Automation Framework",
-      subtitle: "Selenium WebDriver",
-      description: "Comprehensive test automation framework with Page Object Model and parallel execution capabilities for end-to-end testing.",
-      tech: ["Selenium", "Java", "TestNG"],
-      github: "https://github.com/MuhammadAsim6/Website-Automation-with-Selenium",
-      gradient: "from-cyan-500 to-blue-500",
-      icon: "🔍",
-      stats: { tests: "200+", coverage: "85%" }
-    },
-    {
-      id: 2,
-      title: "Playwright Automation Suite",
-      description: "Modern test automation with visual regression testing, comprehensive reporting with screenshots and failure analysis.",
-      tech: ["Playwright", "TypeScript", "CI/CD", "Allure"],
-      github: "https://github.com/MuhammadAsim6/Playwright_Website-Automation",
-      gradient: "from-green-500 to-teal-500",
-      icon: "🎭",
-      stats: { speed: "3x faster", reliability: "99%" }
-    },
-    {
-      id: 3,
-      title: "ShopEase",
-      subtitle: "E-Commerce Android App",
-      description: "Full-featured e-commerce mobile application with Azure database integration, shopping cart, and real-time customer support.",
-      tech: ["Java", "Android SDK", "Azure", "SQL"],
-      github: "https://github.com/MuhammadAsim6/ShopEase_Project",
-      gradient: "from-purple-500 to-pink-500",
-      icon: "🛒",
-      stats: { users: "1K+", rating: "4.8★" }
-    },
-    {
-      id: 4,
-      title: "Dijkstra Visualizer",
-      description: "Interactive visualization tool for Dijkstra's shortest path algorithm with step-by-step execution and graph manipulation.",
-      tech: ["Java", "Android SDK", "XML"],
-      github: "https://github.com/MuhammadAsim6/Dijkstra-Visualizer-App",
-      gradient: "from-orange-500 to-red-500",
-      icon: "🗺️",
-      stats: { nodes: "100+", animations: "Smooth" }
-    },
-    {
-      id: 5,
-      title: "Automata Simulator",
-      description: "Educational tool for creating and testing Finite Automata (DFA/NFA) with interactive visualization and step-by-step execution.",
-      tech: ["Java", "Android SDK", "XML"],
-      github: "https://github.com/MuhammadAsim6/Automata-Simulator",
-      gradient: "from-indigo-500 to-purple-500",
-      icon: "🤖",
-      stats: { states: "Unlimited", modes: "DFA/NFA" }
-    }
   ];
 
   const certifications = [
