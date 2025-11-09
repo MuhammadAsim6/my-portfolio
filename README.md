@@ -1,8 +1,10 @@
 # Muhammad Asim - Portfolio
 
 Modern, interactive portfolio website showcasing my work as an SQA Automation Engineer and Mobile App Developer.
+
 <img width="400" height="250" alt="ss1" src="https://github.com/user-attachments/assets/83f77dd7-2bcd-4fad-a536-c67c80ad315b" />
-<img width="400" height="256" alt="ss2" src="https://github.com/user-attachments/assets/8ec804fd-4aae-4c9b-aa75-86eb729c6cc5" />
+<img width="400" height="250" alt="ss2" src="https://github.com/user-attachments/assets/8ec804fd-4aae-4c9b-aa75-86eb729c6cc5" />
+<img width="400" height="250" alt="ss3" src="https://github.com/user-attachments/assets/017ac0f8-2866-47d5-8e6c-653d8d618550" />
 
 
 
